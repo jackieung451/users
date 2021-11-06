@@ -9,6 +9,7 @@ from .models import User, UserToken
 from .authentication import JWTAuthentication
 from .serializers import UserSerializer
 
+# stable foundation for future use
 
 class RegisterAPIView(APIView):
     def post(self, request):
